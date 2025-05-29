@@ -18,6 +18,22 @@ body {
   font-family: "Space Grotesk", Helvetica, sans-serif;
   color: #010101;
   background-color: #fefefe;
+  padding: 1em;
+}
+
+h1, h2 {
+    /* font-family: "Varela Round", sans-serif; */
+    display: block; /* Changed to block to allow margin auto to work */
+    text-align: center;
+    margin: 1rem auto; /* Auto will center the block element horizontally */
+    padding: 1rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5rem;
+    text-decoration: none;
+    box-shadow: 2px 2px black;
+    max-width: 80%; 
+  transform: rotate(-11deg);
 }
 
 img {

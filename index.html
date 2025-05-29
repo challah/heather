@@ -8,6 +8,7 @@
     <title>Heather the Cow SAO</title>
   </head>
   <body> 
+    <div class="container">
   <h1 id="heather-the-cow-sao">Heather the Cow SAO</h1>
 <p><em>a hardware talisman for OHS 2025 in Scotland</em></p>
 <p><img src="images/heathers_blink.gif"></p>
@@ -112,13 +113,29 @@
 </ul>
 <img src="images/8.jpg"> (far right: a Heather with her own power source!)
 <p>[Coming soon: the QC sticker files]</p>
+<img src="images/qc_stickers.png">
 <h2 id="credits-and-thanks">Credits and Thanks</h2>
 <ul>
 <li>Thank you <a href="https://nanik.ca">Nanik</a> for giving me my first SAO at OHS 2024! The <a href="https://www.nanik.ca/projects">Analog Bird SAO</a></li>
 <li>Inspired by jmarler&#39;s <a href="https://github.com/jmarler/ShittiestSAO">ShittiestSAO</a></li>
 <li>2x3 header made using Mofosyne&#39;s <a href="https://www.printables.com/model/51497-parametric-spacer-for-male-pin-headers">Parametric Spacer for Male Headers</a></li>
 </ul>
-
+</div>
+<script>
+  // Select all elements inside .container, except .container itself
+  const container = document.querySelector('.container');
+  if (container) {
+    const innerElements = container.querySelectorAll('*');
+    for (let i = 0; i < innerElements.length; i++) {
+      const element = innerElements[i];
+      // random rotation degree between -0.5 and 0.5 in increments of 0.1
+      const deg = (Math.floor(Math.random() * 11) - 20) / 10;
+      element.style.transition = 'transform 0.5s ease';
+      element.style.transform = 'rotate(' + deg + 'deg)';
+      element.style["transform-origin"] = "50% 50%";
+    }
+  }
+</script>
 
 
   </body>
