@@ -2,7 +2,8 @@
 
 _a hardware talisman for OHS 2025 in Scotland_
 
-![[images/heathers_blink.gif]]
+<img src="images/heathers_blink.gif" alt="10 colourful highland cow 
+SAOs on a breadboard with glowing LEDs, some are blinking">
 
 ## What is Heather? Why is Heather?
 

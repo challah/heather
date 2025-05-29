@@ -18,7 +18,7 @@ body {
   font-family: "Space Grotesk", Helvetica, sans-serif;
   color: #010101;
   background-color: #fefefe;
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 h1, h2 {
@@ -36,8 +36,21 @@ h1, h2 {
   transform: rotate(-11deg);
 }
 
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1.5em 1em;
+  background: #fff;
+  border-radius: 2em;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
 img {
   width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 1.5em auto;
+  height: auto;
 }
 
 a {
