@@ -8,14 +8,119 @@
     <title>Heather the Cow SAO</title>
   </head>
   <body> 
-    <h1>Heather the Cow SAO</h1>
-    <p><a href="#">Hamster</a> ipsum dolor sit amet consectetur, adipisicing elit. <a href="#">Eaque</a> alias consequatur deleniti perferendis earum rerum eos a soluta quis exercitationem officiis ab, nulla perspiciatis illo ducimus sequi blanditiis saepe in.</p>
-    <h2>Download the Files</h2>
-    <ul>
+  <h1 id="heather-the-cow-sao">Heather the Cow SAO</h1>
+<p><em>a hardware talisman for OHS 2025 in Scotland</em></p>
+<p><img src="images/heathers_blink.gif"></p>
+<h2 id="what-is-heather-why-is-heather"> What is Heather? Why is Heather?</h2>
+<p>Heather is a 3D printed Highland cow (plural: Heathers). She’s also a <a href="https://hackaday.io/project/52950-shitty-add-ons">SAO (Shitty Add-On)</a>—a tiny hardware trinket designed to plug into compatible badge headers at conferences like the <a href="https://2025.oshwa.org/">Open Hardware Summit 2025</a> in Edinburgh, Scotland. She is open source. She is adorable. She is questionably constructed. She is held together by Emotional Support &amp; Stability Pins (ESSPs). Do not ask her to do more.</p>
+<p>Heather exists because:</p>
+<ul>
+<li>Scotland has cows and they are glorious</li>
+<li>I went SAO-less on day one of OHS and nearly cried in a club on St. Laurent. We are healing.</li>
+<li>Electronics are crafts.</li>
+</ul>
+<h2 id="if-you-received-a-heather-from-me-">If you received a Heather from me...</h2>
+<p><img src="images/heathers_pile.jpg"></p>
+<p>There are many reasons you might be holding a Heather. Perhaps:</p>
+<ul>
+<li>I am repaying a debt</li>
+<li>I want to be your friend</li>
+<li>I want to bring you joy, whimsy, and at least one LED</li>
+</ul>
+<p>Whatever the reason, handle her with care and reverence (and maybe a little hot glue). 🔥 <strong>DO NOT LOOK AT THE BACKSIDE.</strong></p>
+<p>If one of the pins falls out... it&#39;s okay. It was likely just an Emotional Support Support &amp; Stability Pin (ESSP) and not critical to the glow. Probably. ; w ;</p>
+<hr>
+<h2 id="how-to-heather">HOW TO HEATHER</h2>
+<h3 id="materials">Materials</h3>
+<p><img src="images/materials.jpg"></p>
+<h3>You will need:</h3>
+<ul>
+<li>Filament (PLA) to print Heather and the header</li>
+<li>Two (2) humble components:<ul>
+<li>A 5mm LED</li>
+<li>A 100–220Ω resistor</li>
+</ul>
+</li>
+<li>Hot glue</li>
+<li>A dream</li>
+</ul>
+<h3>Downloads:</h3>
+  <ul>
       <li>Main <a href="files/heather.3mf">.3mf file</a> or <a href="files/heather.stl">.stl file</a> for 3D printing</li>
       <li>Fake header <a href="files/header_spacer.stl">.stl file</a></li>
     </ul>
-    <h2>Assembly</h2>
+</ul>
+<h2 id="assembly-guide-ish-">Assembly Guide (ish)</h2>
+<ul>
+<li><p>3D print the main STL with up to 4 colour changes (grid supports), and one of the DIY headers</p>
+</li>
+<li>Use a 5mm LED + 100–220Ω resistor</li>
+<li>Wire it to the SAO 3.3V and GND pins</li>
+<li>Add pokey wires for the ESSPs (Emotional Support &amp; Stability Pins)</li>
+<li>Hot glue like your badge depends on it (because it does)</li>
+<li>Optional: Solder to secure. Try not to melt Heather.</li>
+</ul>
+<h2 id="assembly-guide-actually-">Assembly Guide (actually)</h2>
+<p><img src="images/01.png"></p>
+<p><strong>Step 1: Print your Heather</strong></p>
+<ul>
+<li>Layer height: 0.2 mm</li>
+<li>Supports: Build plate only</li>
+<li>Infill: 15%</li>
+<li>Colour changes: Up to 4 (for maximum fashion)</li>
+<li>Also print a DIY header (if desired - it’s janky)</li>
+</ul>
+<p><img src="images/1.jpg"></p>
+<p><strong>Step 2: Insert the LED</strong></p>
+<ul>
+<li>Insert the LED into the back of Heather: anode (long leg) on the right, cathode (short leg) on the left</li>
+</ul>
+<p><img src="images/2.jpg"></p>
+<p><strong>Step 3: Add the resistor</strong></p>
+<ul>
+<li>Twist the resistor leg to connect to the LED anode</li>
+<li>Clip the extra wire after twisting</li>
+</ul>
+<p><img src="images/3.jpg"></p>
+<p><strong>Step 4: Bend into position</strong></p>
+<ul>
+<li>Bend the leads at right angles so they aim toward the header pins</li>
+<li>Don’t let the legs touch</li>
+</ul>
+<p><img src="images/4.jpg"></p>
+<p><strong>Step 5: Add the Emotional Support &amp; Stability Pins (ESSPs)</strong></p>
+<ul>
+<li>Insert a pokey wire (ESSP) into the leftmost top and/or bottom header holes</li>
+<li>These don’t connect to anything! They’re for structure</li>
+</ul>
+<p><img src="images/6.jpg"></p>
+<p><strong>Step 6: Power test</strong></p>
+<ul>
+<li>Plug Heather into a 3.3V power source: a CPX, Arduino, or your badge’s SAO header</li>
+<li>3.3V goes to the top row, GND to the bottom row</li>
+<li>If she glows: PASSED QC!! If not... check your connections, maybe moo encouragingly</li>
+</ul>
+<p><img src="images/7.jpg"></p>
+<p><strong>PASSED QC!!!! KINDA!</strong></p>
+<h2 id="qc-stickers">QC Stickers</h2>
+<p>Heather is proudly ratchet, but she works. She&#39;s passed QC if she glows. And since I can&#39;t stop you from looking at the back, here are some recommended sticker labels to slap on:</p>
+<ul>
+<li>QC passed (kinda)</li>
+<li>QC passed-ish</li>
+<li>QC (BY)PASSED
+</li>
+</ul>
+<img src="images/8.jpg"> (far right: a Heather with her own power source!)
+<p>[Coming soon: the QC sticker files]</p>
+<h2 id="credits-and-thanks">Credits and Thanks</h2>
+<ul>
+<li>Thank you <a href="https://nanik.ca">Nanik</a> for giving me my first SAO at OHS 2024! The <a href="https://www.nanik.ca/projects">Analog Bird SAO</a></li>
+<li>Inspired by jmarler&#39;s <a href="https://github.com/jmarler/ShittiestSAO">ShittiestSAO</a></li>
+<li>2x3 header made using Mofosyne&#39;s <a href="https://www.printables.com/model/51497-parametric-spacer-for-male-pin-headers">Parametric Spacer for Male Headers</a></li>
+</ul>
+
+
+
   </body>
   <script src="script.js"></script>
 </html>
